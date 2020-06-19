@@ -17,6 +17,7 @@ public class GetStarNameServlet extends HttpServlet {
 		String[] ss = req.getParameterValues("sname");
 		for(String s : ss) {
 			System.out.println(s);
+			System.out.println(s);System.out.println(s);
 		}
 	}
 	
